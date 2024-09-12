@@ -28,6 +28,7 @@ Pre-commit is configured to use the following tools for checking and formatting 
 - prettier
 - pyupgrade
 
+
 ### CI
 
 This app can use GitHub Actions for CI. The following workflows are configured:
