@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-14 20:22:35.106696",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Select",
+   "label": "Name",
+   "options": "Water\nGreen Tea\nHerbal Teas (e.g., chamomile, peppermint, ginger)\nLemon Water\nCoconut Water\nFresh Vegetable Juices (e.g., carrot, beetroot, cucumber)\nSmoothies with Greens (e.g., spinach, kale) and fruits\nMatcha Tea\nKombucha\nAloe Vera Juice\nTurmeric Latte (Golden Milk)\nFreshly Squeezed Orange Juice\nInfused Water (with fruits, cucumber, or mint)\nAlmond Milk (unsweetened)\nHibiscus Tea"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-14 20:23:47.159989",
+ "modified_by": "Administrator",
+ "module": "Fitmatrix",
+ "name": "Drink",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
