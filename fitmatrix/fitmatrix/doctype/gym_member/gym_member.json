@@ -1,0 +1,198 @@
+{
+ "actions": [],
+ "autoname": "format:GYM-{YYYY}-{####}",
+ "creation": "2024-08-30 21:23:02.646278",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_uo5f",
+  "amended_from",
+  "user_id",
+  "name1",
+  "mobile_number",
+  "place",
+  "branch",
+  "reference",
+  "column_break_bdvc",
+  "age",
+  "height",
+  "weight",
+  "health_information_section",
+  "meal_preference",
+  "medical_issues",
+  "food_allergies",
+  "medical_description",
+  "measurements_section",
+  "inch_measurement_cm",
+  "before_picture_section",
+  "table_fzhg"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_uo5f",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Gym Member",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bdvc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Age",
+   "reqd": 1
+  },
+  {
+   "fieldname": "health_information_section",
+   "fieldtype": "Section Break",
+   "label": "Health Information"
+  },
+  {
+   "fieldname": "meal_preference",
+   "fieldtype": "Select",
+   "label": "Meal Preference",
+   "options": "Veg\nNon Veg",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "medical_issues",
+   "fieldtype": "Check",
+   "label": "Medical Issues"
+  },
+  {
+   "fieldname": "medical_description",
+   "fieldtype": "Small Text",
+   "hidden": 1,
+   "label": "Medical Description"
+  },
+  {
+   "fieldname": "table_fzhg",
+   "fieldtype": "Table",
+   "label": "Pictures",
+   "options": "Gym Member Pictures"
+  },
+  {
+   "fieldname": "before_picture_section",
+   "fieldtype": "Section Break",
+   "label": "Before Picture"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Height",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "food_allergies",
+   "fieldtype": "Check",
+   "label": "Food Allergies"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Phone",
+   "label": "Mobile Number"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "place",
+   "fieldtype": "Data",
+   "label": "Place"
+  },
+  {
+   "fieldname": "measurements_section",
+   "fieldtype": "Section Break",
+   "label": "Measurements"
+  },
+  {
+   "fieldname": "inch_measurement_cm",
+   "fieldtype": "Table",
+   "label": "Inch Measurement (cm)",
+   "options": "Gym Member Physical Measurements"
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Reference",
+   "options": "Gym Member"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "label": "User ID",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-09-02 10:52:17.922790",
+ "modified_by": "Administrator",
+ "module": "Fitmatrix",
+ "name": "Gym Member",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "getfitgym user",
+   "share": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "name1"
+}

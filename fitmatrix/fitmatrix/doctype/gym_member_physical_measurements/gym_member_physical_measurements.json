@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-30 21:53:03.332325",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "measurements_section",
+  "date",
+  "bust",
+  "upper_arm",
+  "chest",
+  "waist",
+  "stomach",
+  "hips",
+  "calves"
+ ],
+ "fields": [
+  {
+   "fieldname": "bust",
+   "fieldtype": "Float",
+   "label": "Bust"
+  },
+  {
+   "fieldname": "upper_arm",
+   "fieldtype": "Float",
+   "label": "Upper arm"
+  },
+  {
+   "fieldname": "chest",
+   "fieldtype": "Float",
+   "label": "Chest"
+  },
+  {
+   "fieldname": "waist",
+   "fieldtype": "Float",
+   "label": "Waist"
+  },
+  {
+   "fieldname": "stomach",
+   "fieldtype": "Float",
+   "label": "Stomach"
+  },
+  {
+   "fieldname": "hips",
+   "fieldtype": "Float",
+   "label": "Hips"
+  },
+  {
+   "fieldname": "calves",
+   "fieldtype": "Float",
+   "label": "Calves"
+  },
+  {
+   "fieldname": "measurements_section",
+   "fieldtype": "Section Break",
+   "label": "Measurements"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-30 21:56:46.465113",
+ "modified_by": "Administrator",
+ "module": "Fitmatrix",
+ "name": "Gym Member Physical Measurements",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

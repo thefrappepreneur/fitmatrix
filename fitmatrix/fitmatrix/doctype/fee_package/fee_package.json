@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PAK-{YY}-{##}",
+ "creation": "2024-08-31 20:23:14.233817",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_qvb6",
+  "package_name",
+  "timing",
+  "months",
+  "column_break_kaeu",
+  "amount",
+  "mode"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_qvb6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "timing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Timing",
+   "options": "Morning\nAfternoon\nEvening\nAnytime",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "package_name",
+   "fieldtype": "Data",
+   "label": "Package Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_kaeu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mode",
+   "fieldtype": "Select",
+   "label": "Mode",
+   "options": "Online\nOffline",
+   "reqd": 1
+  },
+  {
+   "description": "Duration in months",
+   "fieldname": "months",
+   "fieldtype": "Select",
+   "label": "Months",
+   "options": "1\n3\n6\n12"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Fees Collection",
+   "link_fieldname": "package"
+  }
+ ],
+ "modified": "2024-09-01 23:11:52.040841",
+ "modified_by": "Administrator",
+ "module": "Fitmatrix",
+ "name": "Fee Package",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "package_name"
+}

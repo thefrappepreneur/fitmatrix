@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-14 20:01:19.499059",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ou3f",
+  "amended_from",
+  "gym_member",
+  "todays_class_details_tab",
+  "present",
+  "absent",
+  "yesterdays_class_details_tab",
+  "food_plate",
+  "walk",
+  "junk",
+  "water_in_ltrs",
+  "total_calories_intake"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ou3f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Attendance",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "gym_member",
+   "fieldtype": "Link",
+   "label": "Gym Member",
+   "options": "Gym Member"
+  },
+  {
+   "fieldname": "todays_class_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Today's Class Details"
+  },
+  {
+   "default": "0",
+   "fieldname": "present",
+   "fieldtype": "Check",
+   "label": "Present"
+  },
+  {
+   "default": "0",
+   "fieldname": "absent",
+   "fieldtype": "Check",
+   "label": "Absent"
+  },
+  {
+   "fieldname": "yesterdays_class_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Yesterday's Class Details"
+  },
+  {
+   "default": "0",
+   "fieldname": "food_plate",
+   "fieldtype": "Check",
+   "label": "Food Plate"
+  },
+  {
+   "default": "0",
+   "fieldname": "walk",
+   "fieldtype": "Check",
+   "label": "Walk"
+  },
+  {
+   "default": "0",
+   "fieldname": "junk",
+   "fieldtype": "Check",
+   "label": "Junk"
+  },
+  {
+   "fieldname": "water_in_ltrs",
+   "fieldtype": "Float",
+   "label": "Water in ltrs"
+  },
+  {
+   "fieldname": "total_calories_intake",
+   "fieldtype": "Int",
+   "label": "Total Calories Intake"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-09-14 20:14:46.396011",
+ "modified_by": "Administrator",
+ "module": "Fitmatrix",
+ "name": "Attendance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

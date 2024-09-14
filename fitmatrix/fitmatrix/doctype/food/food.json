@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-14 20:21:46.518884",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Select",
+   "label": "Name",
+   "options": "Leafy Greens (e.g., spinach, kale, arugula)\nBerries (e.g., blueberries, strawberries, raspberries)\nNuts and Seeds (e.g., almonds, chia seeds, flaxseeds)\nAvocado\nOats\nQuinoa\nFatty Fish (e.g., salmon, mackerel, sardines)\nGreek Yogurt\nSweet Potatoes\nBroccoli\nLegumes (e.g., lentils, chickpeas, black beans)\nEggs\nOlive Oil\nWhole Grains (e.g., brown rice, whole wheat, barley)\nGreen Tea"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-14 20:23:22.226659",
+ "modified_by": "Administrator",
+ "module": "Fitmatrix",
+ "name": "Food",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
