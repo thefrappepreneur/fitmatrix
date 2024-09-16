@@ -12,6 +12,11 @@ bench get-app $URL_OF_THIS_REPO --branch develop
 bench install-app fitmatrix
 ```
 
+### Creating a Member
+
+[Click here to watch the video](https://github.com/thefrappepreneur/fitmatrix/tree/doctypes_creation/fitmatrix/public/documentation/videos/create_member.mp4)
+
+
 ### Contributing
 
 This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
