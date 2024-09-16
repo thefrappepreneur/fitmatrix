@@ -15,7 +15,7 @@ bench install-app fitmatrix
 ### Workspace
 
 <video width="800" controls>
-  <source src="fitmatrix/public/documentation/videos/create_member" type="video/mp4">
+  <source src="fitmatrix/public/documentation/videos/create_member.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
