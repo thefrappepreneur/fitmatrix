@@ -14,10 +14,7 @@ bench install-app fitmatrix
 
 ### Workspace
 
-<video width="800" controls>
-  <source src="https://github.com/thefrappepreneur/fitmatrix/tree/doctypes_creation/fitmatrix/public/documentation/videos/create_member.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img width="1402" alt="workspace" src="fitmatrix/public/documentation/images/workspace.png">
 
 
 
