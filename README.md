@@ -14,7 +14,9 @@ bench install-app fitmatrix
 
 ### Workspace
 
-<img width="1402" alt="workspace" src="fitmatrix/public/documentation/images/workspace.png">
+<img width="500" height="500" alt="workspace" src="fitmatrix/public/documentation/images/workspace.png">
+
+
 
 
 
