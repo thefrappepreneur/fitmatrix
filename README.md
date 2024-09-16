@@ -14,7 +14,7 @@ bench install-app fitmatrix
 
 ### Workspace
 
-https://github.com/thefrappepreneur/fitmatrix/tree/doctypes_creation/fitmatrix/public/documentation/images/workspace.png
+![Workspace](https://github.com/thefrappepreneur/fitmatrix/tree/doctypes_creation/fitmatrix/public/documentation/images/workspace.png)
 
 
 ### Contributing
