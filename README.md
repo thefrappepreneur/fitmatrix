@@ -12,9 +12,9 @@ bench get-app $URL_OF_THIS_REPO --branch develop
 bench install-app fitmatrix
 ```
 
-### Creating a Member
+### Workspace
 
-[Click here to watch the video](https://github.com/thefrappepreneur/fitmatrix/tree/doctypes_creation/fitmatrix/public/documentation/videos/create_member.mp4)
+https://github.com/thefrappepreneur/fitmatrix/tree/doctypes_creation/fitmatrix/public/documentation/images/workspace.png
 
 
 ### Contributing
