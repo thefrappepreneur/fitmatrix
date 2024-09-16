@@ -12,7 +12,13 @@ bench get-app $URL_OF_THIS_REPO --branch develop
 bench install-app fitmatrix
 ```
 
-### Workspace
+### Features
+
+1. Create New Gym Members.
+2. Take Attendance.
+3. Collect Fees.
+4. Feedback
+5. create Fee Packages
 
 <p align="center">
   <img width="400" height="250" src="fitmatrix/public/documentation/images/workspace.png" alt="Workspace" />
